@@ -1,1 +1,12 @@
+# Build Notes
+
+## Day 1
+- Created VM1 (Ubuntu Server)
+- Installed OS + OpenSSH
+- Updated packages
+- Captured baseline commands and outputs
+
+## Day 2
+- Configured static IP / documented DHCP
+- Added troubleshooting entry for DNS issue
 
