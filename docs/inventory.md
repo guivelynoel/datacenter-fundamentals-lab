@@ -2,7 +2,7 @@
 
 ## Environment Type
 - [ ] Physical hardware
-- [x] Virtual lab
+- [x] Virtual lab _Virtualbox 7.2.4
 
 ## Host Machine
 - OS:
