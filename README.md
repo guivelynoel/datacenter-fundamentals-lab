@@ -1,5 +1,5 @@
 # datacenter-fundamentals-lab
-# Data Center Fundamentals Lab
+
 
 ## Overview
 This repository documents my hands-on lab work to build data center technician fundamentals:
