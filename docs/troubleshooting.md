@@ -34,3 +34,25 @@
 **Result**
 - DNS resolution restored.
 
+## Issue 003 — Netplan Warnings After Static IP Configuration
+
+**Symptoms**
+- Warning: permissions too open
+- Warning: gateway4 deprecated
+
+**Cause**
+- Netplan config file had insecure permissions
+- Legacy gateway syntax used
+
+**Fix**
+- Set file permissions to 600
+- Replaced gateway4 with default route syntax
+
+**Result**
+- Clean netplan apply with no warnings
+- Static IP configured using best practices
+
+
+
+
+
