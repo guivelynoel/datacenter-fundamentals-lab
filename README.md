@@ -8,15 +8,15 @@ My goal is to demonstrate real-world operational thinking through clear document
 
 ## What This Lab Covers
 - Server hardware fundamentals (CPU/RAM/storage/NIC/PSU concepts)
-- OS installation (Linux or Windows Server) in a lab environment
+- OS installation (ubuntu Server) in a lab environment
 - Network basics (IP addressing, VLAN concept, connectivity tests)
 - Storage basics (RAID concepts, disk health checks)
 - Standard operating procedures (SOP mindset)
 - Troubleshooting playbook and incident-style notes
 
 ## Tools Used
-- Virtualization: VirtualBox / VMware / Proxmox (choose one)
-- OS: Ubuntu Server / Windows Server (choose one)
+- Virtualization: VirtualBox 
+- OS: Ubuntu Server 
 - Networking: basic switch/router concepts, ping/traceroute/nslookup
 - Documentation: Markdown, diagrams (draw.io)
 
