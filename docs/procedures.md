@@ -21,3 +21,6 @@
 ### Rollback
 - Restore VM snapshot 
 
+### Security Note
+Netplan configuration files must have restricted permissions (600)
+to prevent unauthorized access.
