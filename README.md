@@ -28,6 +28,14 @@ My goal is to demonstrate real-world operational thinking through clear document
 - ✅ Build Notes: [logs/build-notes.md](logs/build-notes.md)
 - ✅ Network & Cabling Overview: [docs/network-and-cabling.md](docs/network-and-cabling.md)
 
+- ## Architecture Diagram
+
+![Data Center Architecture](diagrams/topology.md)
+
+This diagram illustrates server connectivity, Top-of-Rack switching,
+routing, and firewall placement in a data center environment.
+
+
 
 ## Quick Start (How to Reproduce)
 1. Create a VM (2 vCPU / 4GB RAM / 40GB disk)
