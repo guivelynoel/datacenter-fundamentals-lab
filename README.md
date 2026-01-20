@@ -2,23 +2,36 @@
 
 
 ## Overview
-This repository documents my hands-on lab work to build data center technician fundamentals:
-server setup concepts, OS installation, basic networking, RAID/storage basics, and troubleshooting.
-My goal is to demonstrate real-world operational thinking through clear documentation.
+This repository documents my hands-on lab experience building and operating
+a basic data center server environment. The lab focuses on real-world
+data center technician tasks including server deployment, networking,
+remote access, system health checks, troubleshooting, and documentation.
 
-## What This Lab Covers
-- Server hardware fundamentals (CPU/RAM/storage/NIC/PSU concepts)
-- OS installation (ubuntu Server) in a lab environment
-- Network basics (IP addressing, VLAN concept, connectivity tests)
-- Storage basics (RAID concepts, disk health checks)
-- Standard operating procedures (SOP mindset)
-- Troubleshooting playbook and incident-style notes
+All configurations are performed in a lab environment and documented
+using best practices to reflect production workflows.
 
-## Tools Used
-- Virtualization: VirtualBox 
-- OS: Ubuntu Server 
-- Networking: basic switch/router concepts, ping/traceroute/nslookup
-- Documentation: Markdown, diagrams (draw.io)
+---
+
+## Skills Demonstrated
+- Linux server deployment and administration
+- Static IP configuration using Netplan
+- Secure SSH remote access configuration
+- Server health monitoring (CPU, memory, disk)
+- Data center networking fundamentals (NICs, VLANs, switching)
+- Troubleshooting using structured playbooks
+- Professional documentation and change tracking
+
+## Lab Environment
+- Platform: VirtualBox
+- OS: Ubuntu Server 22.04 LTS
+- Server Name: DC-Server-01
+- Network:
+  - Static IP addressing
+  - DNS configuration
+  - Default routing
+- Remote Access:
+  - OpenSSH
+  - Root login disabled
 
 ## Lab Deliverables (Evidence)
 - ✅ Inventory: [docs/inventory.md](docs/inventory.md)
@@ -54,4 +67,5 @@ All files are sanitized and provided for documentation purposes only.
 
 ## Author
 Guively Noel  
-
+📍 Georgia, USA  
+🔗 GitHub: https://github.com/GuivelyNoel 
