@@ -1,1 +1,9 @@
 
+# Example SSH server configuration
+# Documentation only – not a live system file
+
+Port 22
+PermitRootLogin no
+PasswordAuthentication yes
+PubkeyAuthentication yes
+X11Forwarding no
