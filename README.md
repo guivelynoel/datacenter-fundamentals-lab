@@ -26,6 +26,8 @@ My goal is to demonstrate real-world operational thinking through clear document
 - ✅ Troubleshooting Playbook: [docs/troubleshooting.md](docs/troubleshooting.md)
 - ✅ Glossary: [docs/glossary.md](docs/glossary.md)
 - ✅ Build Notes: [logs/build-notes.md](logs/build-notes.md)
+- ✅ Network & Cabling Overview: [docs/network-and-cabling.md](docs/network-and-cabling.md)
+
 
 ## Quick Start (How to Reproduce)
 1. Create a VM (2 vCPU / 4GB RAM / 40GB disk)
