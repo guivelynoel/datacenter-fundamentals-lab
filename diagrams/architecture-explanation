@@ -1,0 +1,48 @@
+# Data Center Architecture 
+
+## Overview
+This diagram represents a basic data center server deployment.
+It shows how a Linux server connects to network infrastructure
+to reach internal and external networks.
+
+## Components Explained
+
+### DC-Server-01
+- Ubuntu Server 24.04.3 LTS
+- Static IP: 10.0.2.15
+- Network Interface: enp0s3
+- Provides application or service workloads
+
+### Network Interface Card (NIC)
+- Physical or virtual Ethernet interface
+- Connects server to the data center network
+- Supports Layer 2 and Layer 3 communication
+
+### Top-of-Rack (ToR) Switch
+- Aggregates server connections within a rack
+- Handles VLAN segmentation
+- Forwards traffic upstream
+
+### Gateway
+- Routes traffic outside the server VLAN
+- Default route for external communication
+
+### Firewall
+- Applies security policies
+- Controls inbound and outbound traffic
+
+### Internet
+- External network access
+- Used for updates, remote access, and services
+
+## Traffic Flow
+1. Server sends traffic via NIC
+2. Ethernet cable carries traffic to ToR switch
+3. Switch forwards traffic based on VLAN rules
+4. Gateway routes traffic externally
+5. Firewall enforces security policies
+6. Traffic reaches the internet
+
+## Lab Context
+This architecture is simulated using VirtualBox networking
+to reflect real-world data center design principles.
