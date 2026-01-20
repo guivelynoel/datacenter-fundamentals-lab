@@ -27,14 +27,17 @@ My goal is to demonstrate real-world operational thinking through clear document
 - ✅ Glossary: [docs/glossary.md](docs/glossary.md)
 - ✅ Build Notes: [logs/build-notes.md](logs/build-notes.md)
 - ✅ Network & Cabling Overview: [docs/network-and-cabling.md](docs/network-and-cabling.md)
+- ✅ Architecture Diagram [Data Center Architecture](diagrams/topology.md) This diagram illustrates server connectivity, Top-of-Rack switching, routing, and firewall placement in a data center environment.
 
-- ## Architecture Diagram
+## Configuration Examples
 
-![Data Center Architecture](diagrams/topology.md)
+This repository includes example configuration files used
+to document how the lab environment was configured.
 
-This diagram illustrates server connectivity, Top-of-Rack switching,
-routing, and firewall placement in a data center environment.
+- Network static IP configuration (Netplan)
+- SSH server hardening examples
 
+All files are sanitized and provided for documentation purposes only.
 
 
 ## Quick Start (How to Reproduce)
